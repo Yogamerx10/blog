@@ -27,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 .number {
@@ -38,6 +38,7 @@ body {
   place-items: center;
   background: #377fe8;
   color: white;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 42px;
   font-weight: 700;
 }
@@ -54,7 +55,7 @@ h1 {
   border: 0;
   border-radius: 25px;
   padding: 23px 18px;
-  background: #ef3670;
+  background: #df3f70;
   color: white;
   font-size: 22px;
   font-weight: 800;
@@ -64,17 +65,6 @@ h1 {
 
 .main-btn:active {
   transform: scale(.98);
-}
-
-.url-box {
-  margin-top: 20px;
-  border: 2px dashed #ccd0d9;
-  border-radius: 20px;
-  padding: 21px 14px;
-  text-align: center;
-  font-size: 19px;
-  font-weight: 700;
-  overflow-wrap: anywhere;
 }
 
 @media (max-width: 520px) {
@@ -105,9 +95,5 @@ h1 {
 
   .main-btn {
     font-size: 19px;
-  }
-
-  .url-box {
-    font-size: 16px;
   }
 }
